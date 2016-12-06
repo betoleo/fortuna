@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="./css/site.css">
+    <link rel="stylesheet" href="./vendor/sweetalert/dist/sweetalert.css">
+    <link type="text/css" rel="stylesheet" href="./vendor/materialize-css/dist/css/materialize.min.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/custom.css" />
+ </head>
+ 
+
+<!-- <link rel="stylesheet" href="./vendor/materialize-css/dist/css/materialize.min.css" -->
+    <title>Document</title>
+    <link 
+    type="image/png"
+    rel="shortcut icon"
+    npm href="./fa.png">
+    <!-- Cargando el estilo de sweetalert -->
+</head>
+ <body>
+    
+<div class="container">
+      <section>
+          <div class="row">
+              <div class="col s12"></div>
+              <div class="slider fullscreen">
+    <ul class="slides">
+      <li>
+           
+        <img src="./img/tb.png"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>your look is great!</h3>
+          <h5 class="light grey-text text-lighten-3">la suerte viene cuando  menos esperas</h5>
+          <a class="waves-effect waves-light btn" onclick="getFortuneFromServer()" ></a>
+          <i class="material-icons center-align"> la suerte esta en ti </i> Rompe la Galleta 
+
+        </div>
+      </li>
+      <li>
+        <img src="./img/s1.jpg"> <!-- random image -->
+        
+          
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="./img/tres.png"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+ 
+ </div>
+      </section>
+    
+  
+    
+    <!-- Importando libreria Jquery -->
+ <script src="./vendor/jquery/dist/jquery.min.js"></script>
+
+   <script src="./vendor/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="./vendor/materialize-css/dist\js/materialize.min.js"></script>
+    
+     <script src="./js/site.js"></script> 
+     <script>
+     $(document).ready(function(){
+      $('.slider').slider({full_width: true});
+    });
+     </script>
+
+ </div>
+</body>
+</html>
